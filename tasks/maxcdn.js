@@ -27,7 +27,7 @@ module.exports = function (grunt) {
     );
 
     grunt.log.writeln('Invalidate the following files:');
-    
+
     this.files.forEach(function (f) {
       grunt.log.writeln('\t' + f.dest);
       files.push(f.dest);
@@ -40,8 +40,6 @@ module.exports = function (grunt) {
         if (err) {
           grunt.log.error(err);
         }
-
-        grunt.log.writeln(response);
       });
   });
 
