@@ -26,7 +26,7 @@ module.exports = function (grunt) {
       options.consumerSecret
     );
 
-    grunt.log.writeln('Invalidate the following files:');
+    grunt.log.writeln('Purging cache...');
 
     this.files.forEach(function (f) {
       grunt.log.writeln('\t' + f.dest);
@@ -39,7 +39,10 @@ module.exports = function (grunt) {
       function (err, response) {
         if (err) {
           grunt.log.error(err);
+          return;
         }
+
+        console.log(response);
       });
   });
 
