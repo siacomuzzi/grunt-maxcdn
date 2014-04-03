@@ -1,7 +1,7 @@
 {
   "name": "grunt-maxcdn",
   "description": "Grunt plugin for interacting with the MaxCDN API",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/siacomuzzi/grunt-maxcdn",
   "author": {
     "name": "Sebastian Iacomuzzi"
@@ -23,8 +23,7 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "devDependencies": {
     "grunt-contrib-jshint": "~0.1.1",
     "grunt": "~0.4.1"
@@ -33,7 +32,9 @@
     "grunt": "~0.4.1"
   },
   "keywords": [
-    "gruntplugin", "maxcdn", "grunt"
+    "gruntplugin",
+    "maxcdn",
+    "grunt"
   ],
   "dependencies": {
     "maxcdn": "0.1.3"
