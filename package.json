@@ -23,17 +23,18 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "devDependencies": {
     "grunt-contrib-jshint": "~0.1.1",
     "grunt": "~0.4.1"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
-    "gruntplugin", "maxcdn", "grunt"
+    "gruntplugin",
+    "maxcdn",
+    "grunt"
   ],
   "dependencies": {
     "maxcdn": "0.1.3"
